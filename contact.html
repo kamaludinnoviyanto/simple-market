@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css" />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+        />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>E-Commerce</title>
+</head>
+
+<body>
+    <div class="chat fa fa-brands fa-square-whatsapp" onclick="chat()"></div> 
+    <header>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                    <span class="nav-icon fa fa-home"></span>
+                    <span class="nav-text">HOME</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="product.html" class="nav-link">
+                    <span class="nav-icon fa fa-cart-plus"></span>
+                    <span class="nav-text">PRODUCT</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="category.html" class="nav-link">
+                    <span class=" nav-icon fa fa-list"></span>
+                    <span class="nav-text">CATEGORY</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                    <span class="nav-icon fa fa-contact-book"></span>
+                    <span class="nav-text">CONTACT</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="title">Product List</h2>
+                <div class="row">
+                    <div class="col" onclick="buy('baju Lebaran')">
+                        <img src="assets/image/product-1.jpg" />
+                        <h4>Baju Lebaran</h4>
+                        <p>Rp. 100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu')">
+                        <img src="assets/image/product-2.jpg" />
+                        <h4>Sepatu</h4>
+                        <p>Rp. 100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('celana')">
+                        <img src="assets/image/product-3.jpg" />
+                        <h4>Celana</h4>
+                        <p>Rp. 100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('kaos polo')">
+                        <img src="assets/image/product-4.jpg" />
+                        <h4>Kaos Polo</h4>
+                        <p>Rp. 130.000</p>
+                    </div><div class="col" onclick="buy('sepatu lari')">
+                        <img src="assets/image/product-5.jpg" />
+                        <h4>Sepatu Lari</h4>
+                        <p>Rp. 100.000</p>
+                    </div><div class="col" onclick="buy('kaos puma')">
+                        <img src="assets/image/product-6.jpg" />
+                        <h4>Kaos Puma</h4>
+                        <p>Rp. 140.000</p>
+                    </div><div class="col" onclick="buy('kaos kaki')">
+                        <img src="assets/image/product-7.jpg" />
+                        <h4>Kaos Kaki</h4>
+                        <p>Rp. 30.000</p>
+                    </div><div class="col" onclick="buy('jam tangan')">
+                        <img src="assets/image/product-8.jpg" />
+                        <h4>Jam Tangan</h4>
+                        <p>Rp. 1.000.430</p>
+                    </div><div class="col" onclick="buy('jam')">
+                        <img src="assets/image/product-9.jpg" />
+                        <h4>Jam Tangan</h4>
+                        <p>Rp. 420.000</p>
+                    </div><div class="col" onclick="buy('sepatu lari')">
+                        <img src="assets/image/product-10.jpg" />
+                        <h4>Sepatu Lari</h4>
+                        <p>Rp. 203.000</p>
+                    </div><div class="col">
+                        <img src="assets/image/product-11.jpg" />
+                        <h4>Sepatu Kantor</h4>
+                        <p>Rp. 140.000</p>
+                    </div><div class="col">
+                        <img src="assets/image/product-12.jpg" />
+                        <h4>Celana Joger</h4>
+                        <p>Rp. 10.000</p>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright <span id="year"></span>. Malrare</p>
+    </footer>
+
+    <script src="assets/source.js"></script>
+</body>
+</html>
